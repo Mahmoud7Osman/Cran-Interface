@@ -1,2 +1,2 @@
 # Cran-Interface
-The GUI Interface For The Cran Keylogger
+Powered By <a href="https://electronjs.org">ElectronJS</a>
