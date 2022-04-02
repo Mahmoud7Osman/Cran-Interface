@@ -11,3 +11,5 @@
   <li>This GUI Provide A Control Panel to Manage Targets Infected with CRAN</li>
   <li>Self Destroy After Attack</li>
 </ul>
+
+<a href="https://t.me/MahmoudOsman0">Contact Me</a>
