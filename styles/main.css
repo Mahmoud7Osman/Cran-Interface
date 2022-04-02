@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    user-select: none;
+}
+.container{
+    display: flex;
+}
+.pby{
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    color:rgb(0, 247, 255);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pby img{
+    vertical-align: middle;
+    width: 45px;
+    height: 45px;
+}
+.v-nav{
+    display: block;
+    position: fixed;
+    background-color: black;
+    width: 20%;
+    height: 100%;
+}
+.v-nav ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.v-nav li{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 0);
+    padding: 10px;
+}
+.v-nav li>a{
+    text-decoration: none;
+}
+.v-nav li>a:visited{
+    color: inherit;
+}
+.v-nav li:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.v-nav li:active{
+    background-color: green;
+    color: black
+}
+
+.display{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 20%;
+}
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+#data-wind{
+    background-color: rgba(0, 0, 0, 0.904);
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+    font-family: monospace;
+    margin: 10px 100px 0 100px;
+    padding: 20px;
+    height: 490px;
+    overflow-y: scroll;
+}
+#data-wind .data{
+    display: inline-block;
+}
