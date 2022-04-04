@@ -1,5 +1,5 @@
 # Cran-Interface
-<p>A GUI Interface Powered By <a href="https://electronjs.org">ElectronJS</a>, For The CRAN Keylogger</p>
+<p>A GUI Interface Powered By <a href="https://electronjs.org">ElectronJS</a> (A Cross-Platform Desktop Application), For The CRAN Keylogger</p>
 <h1>Cran</h1>
 <p>A $50 Keylogger For Windows 7, 8, 10, 11 And Linux</p>
 <h3>Some Properties About CRAN</h3>
