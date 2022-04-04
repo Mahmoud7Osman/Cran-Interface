@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body style="background-image: url('/images/cpanel.jpg');background-repeat: no-repeat; background-size: 100vw 100vh;">
-    <h1 class="page-title">Control</h1>
+    <h1 class="page-title">Control Panel</h1>
+
+    <div class="controls">
+        <form action="js:console.log('doneee')">
+            <label for="">IP</label><input type="text" placeholder="IP Address">
+            <label for="">Port</label><input type="number" placeholder="Port Number">
+            <button id="submit">Connect To Cran</button>
+            <button id="listen" type="submit">Listen For Incoming Session</button>
+            <button id="selfdestroy">Self Destroy Cran</button>
+            <button id="stop">Kill Cran</button>
+            <button id="cls">Clear Output</button>
+        </form>
+        <div class="controloutput">
+
+        </div>
+    </div>
+    <script src="/js/controlpanel.js"></script>
 </body>
 </html>

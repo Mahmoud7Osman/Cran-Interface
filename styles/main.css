@@ -5,6 +5,9 @@
     font-weight: bold;
     user-select: none;
 }
+body{
+    overflow: hidden;
+}
 .container{
     display: flex;
 }
@@ -77,10 +80,17 @@
     font-weight: bolder;
 }
 .page-info{
-    display: inline-block;
+    display: block;
+    font-weight: normal;
+    text-shadow: 10px 10px 20px rgb(0, 183, 255);
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.849);
+    backdrop-filter: blur(5px) grayscale(100);
     color: white;
+    margin: 5%;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 10px;
 }
 #data-wind{
     background-color: rgba(0, 0, 0, 0.904);
@@ -99,7 +109,59 @@
     font-weight: normal;
 }
 
+.controls{
+    display: flex;
+    flex-wrap:nowrap;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    margin: 5%;
+    padding: 20px;
+    border-radius: 10px;
+}
 
+input{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button{
+    display: inline-block;
+    max-height: 50px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0)
+}
+button:active{
+    background-color: black;
+    color: white;
+}
+#selfdestroy{
+    background-color: red;
+}
+.controloutput{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: monospace;
+    width: 100%;
+    height: 20em;
+    padding: 5px;
+
+    overflow-y: scroll;
+    border: solid 1px black;
+}
 @media only screen and (max-width:988px) and (max-height:470px){
     #data-wind{
         height: 25em;
