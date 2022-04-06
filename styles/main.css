@@ -87,10 +87,13 @@ body{
     background-color: rgba(0, 0, 0, 0.849);
     backdrop-filter: blur(5px) grayscale(100);
     color: white;
-    margin: 5%;
+    margin: 1%;
     padding: 20px;
     border: solid black 2px;
     border-radius: 10px;
+}
+.page-info:hover{
+    background-color: black;
 }
 #data-wind{
     background-color: rgba(0, 0, 0, 0.904);
@@ -127,7 +130,12 @@ input{
     border-radius: 5px;
     border: 1px solid black;
 }
-
+.controls p{
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgba(2, 192, 255, 0.336);
+    border-radius: 10px;
+}
 button{
     display: inline-block;
     max-height: 50px;
@@ -169,6 +177,23 @@ input[type="checkbox"]{
     display: inline;
     width: 25px;
     height: 25px;
+}
+.controls hr{
+    margin: 5px;
+}
+choice{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(108, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 15px;
+}
+bpv{
+    color: red;
+    font-size: 15px;
+    text-align: center;
 }
 @media only screen and (max-width:988px) and (max-height:570px){
     #data-wind{

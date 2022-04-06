@@ -1,1 +1,1 @@
-//
+input.setAttribute('size',input.getAttribute('placeholder').length);
